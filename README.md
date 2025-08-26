@@ -29,26 +29,31 @@ To determine the winner of each election we developed and algorithm that would d
 ---
 
 ## Compromise
+Compromise Voting failures were evaluated by finding the inital winner. Then we checked if a losing candidate could win if enough people "compromised" to vote for that candidate. To do this we check if the given losing candidate was more prefered than the winning candidate in each row of the preference profile. If so, we would move the losing candiate to the top rank of that row and shift the other non winning candidates down. If the winner changed to the losing candidate, then a compromise failure could have occured. Repeating this process for all losing candidates.
 (See [CompromiseBordaEval](Python_Scripts/CompromiseBordaEval.ipynb))
 
 ---
 
 ## Majority-Condorcet Winner
+For these we simply checked all Borda variants to determine if the person who won by that method was the condorcet or majority winner.
 (See [CondorcetEvalAndBorda](Python_Scripts/CondorcetEvalAndBorda.ipynb))
 
 ---
 
 ## Majority-Condorcet Loser
+For these we simply checked all Borda variants to determine if the person who won by that method was the condorcet or majority winner.
 (See [Condorcet-MajorityLoserEval](Python_Scripts/Condorcet-MajorityLoserEval.ipynb))
 
 ---
 
 ## Spoiler Effect
+To check for spoiler effect failures, we first found the initial winner. Then we ran the election with every combination of candidates including the winner and at least one other candidate to see if the winner would change. If the winner changed, then a spoiler effect failure could have occured.
 (See [SpoilerEffectBordaEval](Python_Scripts/SpoilerEffectBordaEval.ipynb))
 
 ---
 
 ## Truncation
+To check for truncation failures, we first found the initial winner. We would then pick losing candidate, then truncate each ballot if that ballot prefered the loser over the winner. The truncation would involve labeling the winning candidate and all candidates ranked below the winner as being skipped. If the winner changes to the losing candiate, then a truncation failure could have occured. Repeating this process for all losing candidates.
 (See [TruncationBordaEval](Python_Scripts/TruncationBordaEval.ipynb))
 
 ---
