@@ -4,7 +4,11 @@
 1. [Repo Overview](#repo-overview)
 2. [Preference Profile Conversion](#preference-profile-generation)
 3. [Initial Winners](#initial-winners)
-4. 
+4. [Compromise](#compromise)
+5. [Majority/Condorcet Winner](#Majority/Condorcet-Winner)
+6. [Majority/Condorcet Loser](#Majority/Condorcet-Loser)
+7. [Spoiler Effect](#Spoiler-Effect)
+8. [Truncation](#truncation)
 
 ---
 
