@@ -1,6 +1,12 @@
 # borda-method-eval
 
-## Project Overview
-AllEvently is a web-based platform designed to simplify event management. Users can create, manage, and share events while tracking attendance. It supports both public and private events, enabling seamless coordination for all kinds of gatherings.
+## Table of Contents
+1. [Repo Overview](#project-overview)
 
 ---
+
+## Repo Overview
+This repo contains the python script used to evaluate various Borda methods across more than 400 elections. Ballots were provided by Otis D. at [https://dataverse.harvard.edu](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/AMK8PJ).
+
+---
+
