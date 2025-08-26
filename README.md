@@ -5,8 +5,8 @@
 2. [Preference Profile Conversion](#preference-profile-generation)
 3. [Initial Winners](#initial-winners)
 4. [Compromise](#compromise)
-5. [Majority/Condorcet Winner](#Majority/Condorcet-Winner)
-6. [Majority/Condorcet Loser](#Majority/Condorcet-Loser)
+5. [Majority-Condorcet Winner](#Majority-Condorcet-Winner)
+6. [Majority-Condorcet Loser](#Majority-Condorcet-Loser)
 7. [Spoiler Effect](#Spoiler-Effect)
 8. [Truncation](#truncation)
 
@@ -33,12 +33,12 @@ To determine the winner of each election we developed and algorithm that would d
 
 ---
 
-## Majority/Condorcet Winner
+## Majority-Condorcet Winner
 (See [CondorcetEvalAndBorda](Python_Scripts/CondorcetEvalAndBorda.ipynb))
 
 ---
 
-## Majority/Condorcet Loser
+## Majority-Condorcet Loser
 (See [Condorcet-MajorityLoserEval](Python_Scripts/Condorcet-MajorityLoserEval.ipynb))
 
 ---
